@@ -1,0 +1,147 @@
+<!Doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="content">
+      <div class="circles">
+        <div class="mercury_circle"></div>
+        <div class="venus_circle"></div>
+        <div class="earth_circle"></div>
+        <div class="mars_circle"></div>
+        <div class="saturn_circle"></div>
+        <div class="jupiter_circle"></div>
+        <div class="uranus_circle"></div>
+        <div class="neptune_circle"></div>
+      </div>
+
+      <a href="https://education.nationalgeographic.org/resource/sun/" target="_self">
+  <div class="planet sun">
+    <div class="planet_info">🌞 Sun — The Star at the Center of Our Solar System</div>
+  </div>
+</a>
+
+
+        <!-- ☿ Mercury -->
+        <div class="mercury_container">
+          
+          <div class="gif_mercury"></div>
+          <div class="shadow_mercury">
+            <div class="light"></div>
+            <div class="shadow"></div>
+          </div>
+          <div class="planet_info">☿ Mercury — Smallest and Fastest Planet</div>
+        </div>
+
+        <!-- ♀ Venus -->
+        <div class="venus_container">
+          <div class="gif_venus"></div>
+          <div class="shadow_venus">
+            <div class="light"></div>
+            <div class="shadow"></div>
+          </div>
+          <div class="planet_info">♀ Venus — The Hottest Planet</div>
+        </div>
+
+        <!-- 🌍 Earth + Moon -->
+        <div class="earth_moon_container">
+          <div class="earth_container">
+            <div class="gif_earth">
+              <img src="https://res.cloudinary.com/yerevan/image/upload/v1484080036/earth_saibbo.gif">
+            </div>
+            <div class="shadow_earth">
+              <div class="light"></div>
+              <div class="shadow"></div>
+            </div>
+            <div class="planet_info">🌍 Earth — The Blue Planet</div>
+          </div>
+          <div class="moon_container">
+            <div class="moon">
+              <img src="https://res.cloudinary.com/yerevan/image/upload/v1484080036/moon_nqqsgu.gif">
+            </div>
+          </div>
+        </div>
+
+        <!-- ♂ Mars -->
+        <div class="mars_container">
+          <div class="gif_mars"></div>
+          <div class="shadow_mars">
+            <div class="light"></div>
+            <div class="shadow"></div>
+          </div>
+          <div class="planet_info">♂ Mars — The Red Planet</div>
+        </div>
+
+        <!-- ♃ Jupiter -->
+        <div class="jupiter_container">
+          <div class="gif_jupiter">
+            <img src="https://res.cloudinary.com/yerevan/image/upload/v1484080036/jupiter_cxhuh5.gif">
+          </div>
+          <div class="shadow_jupiter">
+            <div class="light"></div>
+            <div class="shadow"></div>
+          </div>
+          <div class="planet_info">♃ Jupiter — The Gas Giant</div>
+        </div>
+
+        <!-- ♄ Saturn -->
+        <div class="saturn_ring_container">
+          <div class="saturn_container">
+            <div class="gif_saturn">
+              <img src="https://res.cloudinary.com/yerevan/image/upload/v1484080036/jupiter_cxhuh5.gif">
+            </div>
+            <div class="shadow_saturn">
+              <div class="light"></div>
+              <div class="shadow"></div>
+            </div>
+            <div class="planet_info">♄ Saturn — The Ringed Planet</div>
+          </div>
+          <div class="ring_container">
+            <div class="gif_ring">
+              <div>
+                <img src="https://res.cloudinary.com/yerevan/image/upload/v1484080037/ring_zofwhd.png">
+              </div>
+              <div>
+                <img src="https://res.cloudinary.com/yerevan/image/upload/v1484080037/ring_zofwhd.png">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ♅ Uranus -->
+        <div class="uranus_container">
+          <div class="gif_uranus"></div>
+          <div class="shadow_uranus">
+            <div class="light"></div>
+            <div class="shadow"></div>
+          </div>
+          <div class="planet_info">♅ Uranus — The Ice Giant</div>
+        </div>
+
+        <!-- ♆ Neptune -->
+        <div class="neptune_container">
+          <div class="gif_neptune"></div>
+          <div class="shadow_neptune">
+            <div class="light"></div>
+            <div class="shadow"></div>
+          </div>
+          <div class="planet_info">♆ Neptune — The Windy Planet</div>
+        </div>
+      </div>
+      
+
+      <div class="controls">
+        <button id="stop">Stop</button>
+        <button id="start">Start</button>
+        <p>Grab and move mouse vertically to change perspective</p>
+      </div>
+    
+
+    <!-- JS Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
